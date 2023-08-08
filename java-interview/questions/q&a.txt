@@ -1,0 +1,28 @@
+
+1) Explain Method Overriding vs Method Overloading
+    M. Overloading -> happens in the same class, when 2 or more methods
+                    have same name BUT different type of parameters ordifferent number of parameters
+                   *obs: return type doesn't matter in method overloading
+
+    M. overriding -> happens when we have inheritance, different classes,
+                    child class can implement its own version of method
+                    that was inherited from its parent
+
+2) What are diff between heap&stack memory?
+Stack = dedicated fixed memory space (method calls, parameters, variables etc)
+Heap = dynamically space memory => allocates and deallocates memory, stores objects ('new')
+
+3) PrintStatementCode
+
+4) Shallow vs deep copy
+Shallow copy - copies references to the object, binded together
+Deep copy - copies the exact object's values, separate, self standing objects
+
+5) Explain what is garbage collector
+Garbage Collector = automatic memory manager (gestionarea automata a memoriei)
+
+6) Constructor & 'this' keyword
+Ctor - It is called each time when an object is created ('new')
+This - refers to current object
+
+7) abstract class
