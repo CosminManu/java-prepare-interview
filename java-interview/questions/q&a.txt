@@ -26,3 +26,25 @@ Ctor - It is called each time when an object is created ('new')
 This - refers to current object
 
 7) abstract class
+
+8) Explain super keyword
+Super keyword in Java is a reference to a superclass object (parent object)
+
+9) Final Keyword
+Constant variable that can't change the value
+Constant method that can't be overriden
+Final class = can't be inherited by another class
+
+10) Protected
+Protected = access modifier that is used in inheritance
+        when a child class extends a parent class,
+        child class has access to all protected/public members
+(*)obs: doesn't matter if it is same/not same package
+
+11) Difference .equals() and ==
+    ==        : if 2 objects are at same address in memory
+    .equals() : if 2 objects have the same values
+
+12) Pass by value or pass by reference
+Java doesn't support pass-by-reference.
+Primitive data types and Immutable class objects strictly follow pass-by-value
