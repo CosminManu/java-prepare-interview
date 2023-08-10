@@ -1,0 +1,29 @@
+
+1. A class can have many methods with same name as long as the muber of parameters or type of parameters is different. This OOP Concept is known as:
+ a) Method Invocating
+ b) Method Overloading
+ c) Method Labeling
+ -> d) Method Overloading
+
+2. Which of the following statements is false?
+ a) an instance of a class is an object;
+ b) objects can access both static and instance data
+ -> c) objects do not permit encapsulation
+ d) Object is the super class of all other classes
+
+3. Considering Java naming conventions, which of the following start witha a capital letter and continue using camel case convention?
+ -> a) Class and interface names  (eg UnitTest)
+ b) constant names
+ c) instance variable names
+ d) Package names
+ e) none of above
+
+Constant names are only capital and _ (eg NO_OF_REQUESTS)
+package name only small letters
+
+4. Which elements are true about equals() and hashCode()
+ -> a) Method equals of the Object class returns a boolean value;
+b) String class does not override equals
+ -> c) hashCode() is used when you store the object as a key in a map
+d) hashCode method returns a boolean value
+
