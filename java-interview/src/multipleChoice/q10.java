@@ -1,7 +1,7 @@
 package multipleChoice;
 
 public class q10 {
-    private int i = 1;
+    private static int i = 1;
     public static void main(String args[]){
         int i = 2;
         q10 q10 = new q10();
