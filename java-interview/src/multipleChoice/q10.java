@@ -5,7 +5,7 @@ public class q10 {
     public static void main(String args[]){
         int i = 2;
         q10 q10 = new q10();
-        q10.someMethod();
+        q10.someMethod(); //Static member 'multipleChoice.q10.someMethod()' accessed via instance reference
     }
 
     public static void someMethod(){
