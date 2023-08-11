@@ -11,7 +11,31 @@
  -> c) objects do not permit encapsulation
  d) Object is the super class of all other classes
 
-3. Considering Java naming conventions, which of the following start witha a capital letter and continue using camel case convention?
+3. Which are the access modifiers from most restrictive to less restrictive?
+ a) public, protected, default, private
+ b) private, protected, default, public
+  -> c) private, default, protected, public
+ d) default, protected, private, public
+
+4. Which of the following versions of main() method is correct?
+ a) public static int main(String[] args)
+ -> b) public static void main(String[] args)
+ c) public static void MAIN(String[] args)
+ d) public static void Main(String[] args)
+ e) public static void Main(String[] a)
+ -> f) public static void main(String[] a)
+ -> g) public static void main(String a[])
+ h) public static void main(String args)
+ -> i) public static void main(String... args)  //varargs
+
+5. Which of the following are legal identifiers?
+ -> a) number_1
+ -> b) number_a
+ c) !1234
+ d) all above
+ e) none of them
+
+7. Considering Java naming conventions, which of the following start witha a capital letter and continue using camel case convention?
  -> a) Class and interface names  (eg UnitTest)
  b) constant names
  c) instance variable names
@@ -21,7 +45,7 @@
 Constant names are only capital and _ (eg NO_OF_REQUESTS)
 package name only small letters
 
-4. Which elements are true about equals() and hashCode()
+8. Which elements are true about equals() and hashCode()
  -> a) Method equals of the Object class returns a boolean value;
 b) String class does not override equals
  -> c) hashCode() is used when you store the object as a key in a map
