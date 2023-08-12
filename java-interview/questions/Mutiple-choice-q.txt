@@ -35,6 +35,12 @@
  d) all above
  e) none of them
 
+ 6. Which of the following are Java keywords?
+  a) throw
+  b) void
+  c) private
+  -> d) all above
+
 7. Considering Java naming conventions, which of the following start witha a capital letter and continue using camel case convention?
  -> a) Class and interface names  (eg UnitTest)
  b) constant names
@@ -51,3 +57,14 @@ b) String class does not override equals
  -> c) hashCode() is used when you store the object as a key in a map
 d) hashCode method returns a boolean value
 
+9. What is the value of the following variable declaration?
+    public void test() {
+        String var;
+    }
+ a) NULL
+ b) ""
+ c) null
+ d)  local variable must be explicitly assigned
+
+ 10. code
+ 11. code
