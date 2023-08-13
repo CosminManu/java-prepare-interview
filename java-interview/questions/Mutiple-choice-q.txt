@@ -1,3 +1,4 @@
+1 or more correct answers
 
 1. A class can have many methods with same name as long as the muber of parameters or type of parameters is different. This OOP Concept is known as:
  a) Method Invocating
@@ -68,3 +69,25 @@ d) hashCode method returns a boolean value
 
  10. code
  11. code
+ 12. code
+
+ 13. Which pf the following statements can be used to correctly declare a boolean variable in Java?
+  a) boolean isValid = TRUE;
+   -> b) boolean isValid = true;
+  c) boolean isValid = 1;
+  d) boolean isValid = new Boolean(true);
+
+TRUE is nto permitted, 1 is type int not boolean, d) is deprecated since Java9 and marked for removal
+only boolean values are: true and false
+
+14. Which java utility class should you use to locate a file in a file system?
+ a) java.nio.file.Path
+ -> b) java.nio.file.Paths
+ c) java.nio.file.FilePath
+ d) java.nio.Files
+
+ java.nio.file.Paths is the correct choice. It provides static methods like get(String first, String... more) that allow you to construct a Path instance representing a file or directory location.
+ java.nio.file.Path is an interface that is implemented by the 'Paths' class to ... methods for creating/locating files
+ FilePath is not correct in java.nio.file
+ java.nio.Files is a separate class that provides static methods for reading/writing files, attaching files
+ 
