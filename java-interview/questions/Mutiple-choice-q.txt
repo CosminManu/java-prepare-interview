@@ -90,4 +90,22 @@ only boolean values are: true and false
  java.nio.file.Path is an interface that is implemented by the 'Paths' class to ... methods for creating/locating files
  FilePath is not correct in java.nio.file
  java.nio.Files is a separate class that provides static methods for reading/writing files, attaching files
- 
+
+15. What can be used to load file contents of the following file?
+ File f = new File("test.txt");
+ a) f.lines();
+ b) Paths.read(f)
+  ->  c) Files.readAllLines(Paths.get(f.getAbsolutePath()));
+ d) Files.load(f).stream().lines()
+
+16. code
+17. Which statement is true about StringBuffer and StringBuilder?
+ a) StringBuffer was designed to replace StringBuilder and it offers better performance
+  -> b) Both StringBuffer and StringBuilder are mutable objects but StringBuffer is thread-safe
+ c) StringBuilder is a helper to build a string while StringBuffer is used to tell JVM to cache the defined for better memory usage
+ d) Both StringBuilder and StringBuffer are immutable versions of String
+
+ Strings are immutable - every time you update a string obj, it'll create another obj => memory consumption
+ Mutable string objects - is updated every time to represent the intermediate states
+
+ 18.code
