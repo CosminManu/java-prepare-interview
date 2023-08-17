@@ -109,3 +109,25 @@ only boolean values are: true and false
  Mutable string objects - is updated every time to represent the intermediate states
 
  18.code
+19. Number of characters in an object of a class String is given by:
+ a) member variable called size
+ b) member variable called length
+ c) size() method
+ -> d) length() method
+
+20. Which of these are legal array declarations or definitions?
+ -> a) int[] []x[];
+ b) int x[5];
+ c) int *x;
+ d) none of above
+
+ int[] []x[] is the same with int[][][] x
+
+21.code
+22. What statement is true?
+  -> a) "for" loop has two forms, one of them was designed for looping through collections and arrays
+ b) "while" executes its conditions expression at the bottom of the loop
+ c) "while" and "do-while" are equivalent
+  -> d) in "switch" if you forget a break, blocks underneath will still be executed
+
+
